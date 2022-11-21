@@ -19,11 +19,11 @@ eng = {
     "n": 'print("',
     "o": " "
 }
-print("Select s for single line string.")
-print("Select g for greeting.")
-print("select y for yes or no question.")
+print("#Select s for single line string.")
+print("#Select g for greeting.")
+print("#select y for yes or no question.")
 while True:
-    print("Select s, g, or y. Select x to exit.")
+    print("#Select s, g, or y. Select x to exit.")
         
     switch = input("#")
     if switch ==  "s":
@@ -34,8 +34,8 @@ while True:
                 break
             print('print("' + text + '")\n')
     elif switch == "g":
-        print("This is one step above the single line string.")
-        print("The greeting is 2 lines of code. It uses a variable and input function")
+        print("#This is one step above the single line string.")
+        print("#The greeting is 2 lines of code. It uses a variable and input function")
         while True:
             print("#Name the variable.")
             n = input("#")
