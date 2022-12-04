@@ -62,7 +62,7 @@ while True:
                      #e - variable and question in one line.
                      #f - while loop\n ''')
             print("#Enter letters in proper order.")
-            letters = input()
+            letters = input("#")
             if letters.lower() == "f" + "e" + "d"+ "a" +"b" + "a"+ "c":
                 print("#Right choice.")
             elif letters == "s":
