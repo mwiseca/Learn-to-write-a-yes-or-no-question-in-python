@@ -23,7 +23,7 @@ print("#Select s for single line string.")
 print("#Select g for greeting.")
 print("#select y for yes or no question.")
 while True:
-    print("#Select s, g, or y. Select x to exit. m for main")
+    print("#Select s, g, or y. Select x to exit m for main.")
         
     switch = input("#")
     if switch ==  "s":
